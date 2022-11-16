@@ -10,3 +10,9 @@ $Taisnimi = $Eesnimi + "." + $Perenimi
 # kontokirjeldus
 $kasutajakirjeldus = "lokaalne_konto -" + $kasutajanimi
 New-localUser $kasutajanimi -Password $kasutajaparool -FullName $Taisnimi -Description $kasutajakirjeldus
+if(!$?){
+    Write-output "tekkinud probleem kasutaja loomisega"
+
+}
+# süsteemi teaded tagasi sisse
+$ErrorActionPreference = 'stop'
