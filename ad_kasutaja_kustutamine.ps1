@@ -21,7 +21,7 @@ Remove-ADUser $kasutajanimi -Confirm:$false
     echo "Kasutaja $kasutajanimi on kustutatud edukalt!"
     }
 #--------------------------------
-# Täpitähe fix
+# Täpitähe muutmine
 function Translit {
     param(
         [string] $inputString
