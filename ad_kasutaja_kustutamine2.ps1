@@ -1,4 +1,4 @@
-﻿#---------------------------------
+﻿#Kustutab sisestatud kasutaja
 echo "Sisestage oma eesnimi:"
     $eesnimi = Read-Host
 echo "Sisestage oma perenimi:"
